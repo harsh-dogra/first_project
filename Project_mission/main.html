@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="myScript.js"></script>
+    <div id="backgroundDiv">
+      <div id="leftGround">
+        <div id="saintsPosLeft" class="areaCover">
+          <div class="elemPos" id="saint1" onclick="myFunction('saint1')">
+            <img
+              src="./images/saint1-removebg-preview.png"
+              alt="saint1"
+              height="80px"
+              width="30px"
+            />
+          </div>
+          <div class="elemPos" id="saint2" onclick="myFunction('saint2')">
+            <img
+              src="./images/saint2-removebg-preview.png"
+              alt="saint2"
+              height="80px"
+              width="30px"
+            />
+          </div>
+          <div class="elemPos" id="saint3" onclick="myFunction('saint3')">
+            <img
+              src="./images/saint3-removebg-preview.png"
+              alt="saint3"
+              height="80px"
+              width="20px"
+            />
+          </div>
+        </div>
+        <div id="canPosLeft" class="areaCover">
+          <div class="elemPos" id="can1" onclick="myFunction('can1')">
+            <img
+              src="./images/can1-removebg-preview.png"
+              alt="can1"
+              height="80px"
+              width="30px"
+            />
+          </div>
+          <div class="elemPos" id="can2" onclick="myFunction('can2')">
+            <img
+              src="./images/can2-removebg-preview.png"
+              alt="can2"
+              height="80px"
+              width="30px"
+            />
+          </div>
+
+          <div class="elemPos" id="can3" onclick="myFunction('can3')">
+            <img
+              src="./images/can3-removebg-preview.png"
+              alt="can3"
+              height="80px"
+              width="30px"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="center">
+        <div id="move">
+          <button onclick="moveFunction()">move</button>
+          <button onclick="reloadFunction()">reload</button>
+        </div>
+        <div id="boat">
+          <div id="movboat">
+            <div id="boatArea"></div>
+          </div>
+        </div>
+      </div>
+      <div id="rightGround">
+        <div id="saintsPosRight" class="areaCover"></div>
+        <div id="canPosRight" class="areaCover"></div>
+      </div>
+    </div>
+  </body>
+</html>
